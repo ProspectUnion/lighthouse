@@ -34,6 +34,7 @@ module.exports = {
     new CopyPlugin([
       { from: './src/static', to: "static"},
       { from: './src/pages'},
+      { from: 'CNAME'}
     ])
 
 ]
