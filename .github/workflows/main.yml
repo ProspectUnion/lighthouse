@@ -22,10 +22,10 @@ jobs:
           BRANCH: gh-pages
           FOLDER: dist
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Deploy
-        uses: s0/git-publish-subdir-action@master
-        env:
-          REPO: git@github.com:ProspectUnion/ProspectUnion.github.io.git
-          BRANCH: master
-          FOLDER: dist
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_ACCESS }}
+#      - name: Deploy
+#        uses: s0/git-publish-subdir-action@master
+#        env:
+#          REPO: git@github.com:ProspectUnion/ProspectUnion.github.io.git
+#          BRANCH: master
+#          FOLDER: dist
+#          SSH_PRIVATE_KEY: ${{ secrets.SSH_ACCESS }}
