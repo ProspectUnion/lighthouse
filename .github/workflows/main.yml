@@ -28,4 +28,4 @@ jobs:
           REPO: git@github.com:ProspectUnion/ProspectUnion.github.io.git
           BRANCH: master
           FOLDER: dist
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SSH_PRIVATE_KEY: ${{ secrets.GITHUB_TOKEN }}
