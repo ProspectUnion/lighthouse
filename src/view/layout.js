@@ -92,7 +92,7 @@ const Layout = {
                         m("a", {"href":"https://web.law.duke.edu/dclt"}, [m("img", {"class":"dib v-mid h3","src":"static/dclt-logo.png","alt":"DCLT"})]),
                         ),
                         m("div", {"class":"fl w-100 w-50-ns tc pv4"}, 
-                        m("img", m("a", {"href":"https://www.smallscale.org"}, [{"class":"dib v-mid h3","src":"static/ss-logo.png","alt":"small scale"})]) 
+                         m("a", {"href":"https://smallscale.org"}, [m("img", {"class":"dib v-mid h3","src":"static/ss-logo.png","alt":"small scale"})]),
 
                         )
                       ]
