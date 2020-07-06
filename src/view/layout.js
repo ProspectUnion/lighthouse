@@ -19,7 +19,7 @@ const Layout = {
                 ), m("div", {"class":`${path ? "dtc-ns db": "dtc-ns dn"} v-mid mid-gray  tl-ns tc mb1`,"href":"#","title":"Home"},
                 [
                  path ? 
-                  m("img", {"class":"dib v-mid h3 pv4 ml3","src":"static/prospect.png","alt":"Prospect"}) : 
+                  m("a", {"href":"https://prospect.org.uk"}, [m("img", {"class":"dib v-mid h3 pv4 ml3","src":"static/prospect.png","alt":"Prospect"})]) : 
                    m("div", {"class":"dtc h4-ns f3-ns v-mid f4 fw2 montserrat near-black"}, "Lighthouse: a data stewardship guide"),
                              
 
@@ -82,17 +82,17 @@ const Layout = {
                     m("section", {"class":"cf"},
                       [
                         m("div", {"class":"fl w-100 w-50-ns tc pv4"}, 
-                        m("img", {"class":"dib v-mid h3","src":"static/prospect.png","alt":"Prospect"}),
+                        m("a", {"href":"https://www.prospect.org.uk"}, [m("img", {"class":"dib v-mid h3","src":"static/prospect.png","alt":"Prospect"})]),
                         ),
                         m("div", {"class":"fl w-100 w-50-ns tc pv4"}, 
-                        m("img", {"class":"dib v-mid h3","src":"static/dp-logo.png","alt":"Digital Public"}),
+                        m("a", {"href":"https://www.digitalpublic.io"}, [m("img", {"class":"dib v-mid h3","src":"static/dp-logo.png","alt":"Digital Public"})]),
 
                         ),
                         m("div", {"class":"fl w-100 w-50-ns tc pv4"}, 
-                        m("img", {"class":"dib v-mid h3","src":"static/dclt-logo.png","alt":"DCLT"}),
+                        m("a", {"href":"https://web.law.duke.edu/dclt"}, [m("img", {"class":"dib v-mid h3","src":"static/dclt-logo.png","alt":"DCLT"})]),
                         ),
                         m("div", {"class":"fl w-100 w-50-ns tc pv4"}, 
-                        m("img", {"class":"dib v-mid h3","src":"static/ss-logo.png","alt":"small scale"}) 
+                        m("img", m("a", {"href":"https://www.smallscale.org"}, [{"class":"dib v-mid h3","src":"static/ss-logo.png","alt":"small scale"})]) 
 
                         )
                       ]
@@ -100,6 +100,11 @@ const Layout = {
                     m("small", {"class":"f6 db mv2 "},
                       [
                         "This quiz stores data in your browser's local database. It does not share or transmit that data to any other party, including the creators of this quiz."
+                      ]
+                    ),
+                    m("small", {"class":"f6 db mv2 "},
+                      [
+                        m("a", {"class": "link mid-gray", "href":"https://github.com/ProspectUnion/lighthouse"}, "Lighthouse is open source.")
                       ]
                     ),
                     m("small", {"class":"f6 db mv2 "},
