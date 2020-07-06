@@ -75,8 +75,8 @@ const Sections = {
         ],
         advice: [
             m("p", `If you haven’t already, it’s time to build data protection policies for your organisation, and to make sure your partners are doing the same. While you will likely build more custom data handling policies to meet your own needs, at a minimum you and your partners need to comply with data protection laws.`),
-            m("p", [`You may find this `, m("a", {class:'link b', href:"https://iapp.org/resources/article/sample-data-protection-policy-template-2/"}, "template policy" ), ` to the General Data Protection Regulation  from the UK Information Commissioner's Office useful.`]),
-            m("p", [`If you are in the UK you will also need to be aware of `, m("a", {class:'link b', href:"https://iapp.org/resources/article/sample-data-protection-policy-template-2/"}, "special category data" ), ` which includes trade union membership.`]),
+            m("p", [`You may find this `, m("a", {class:'link b', href:"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/"}, "guide" ), ` to the General Data Protection Regulation  from the UK Information Commissioner's Office useful.`]),
+            m("p", [`If you are in the UK you will also need to be aware of `, m("a", {class:'link b', href:"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/special-category-data/"}, "special category data" ), ` which includes trade union membership.`]),
             m("p", [`If you need help building a data protection policy, the International Association of Privacy Professionals (IAPP) has produced a `, m("a", {class:'link b', href:"https://iapp.org/resources/article/sample-data-protection-policy-template-2/"}, "template policy" ), ` to get you started. (Your needs may vary depending on your jurisdiction.)`])
         ]
     },
