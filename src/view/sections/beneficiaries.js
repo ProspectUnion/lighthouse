@@ -16,7 +16,7 @@ const Sections = {
             "Our project is co-created with our beneficiaries."
         ],
         copy: [
-            m("p", "Your project likely exists to help improve the working lives of a group or groups of workers--your beneficiaries. These could be your members, or a broader set of workers, or some other community."),
+            m("p", "Your project likely exists to help improve the working lives of a group or groups of workers - in this tool we call these workers your beneficiaries. These could be your members, or a broader set of workers, or some other community or wokers."),
             m("p", "Ideally, your project’s beneficiaries wouldn’t just play a passive role: they would be involved in both governance and operations. This could range from having beneficiaries on committees and other groups, to holding regular consultation and feedback sessions."),
         ],
         advice: [
