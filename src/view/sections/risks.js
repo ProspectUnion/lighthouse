@@ -51,8 +51,9 @@ const Sections = {
                 m("li", "Abuses of trust: potential undesirable or harmful behavior from stakeholders and third parties connected to your project."),
                 m("li", "Potential harm(s) to your beneficiaries that may result from your project's activities, even if the activities are a success."),
                 m("li", "Areas of uncertainty in your project: what happens if something goes wrong, or doesn't work out?")]),
-            m("p", `In addition, you should have a project or organisation-wide escalation policy for risks that are especially severe, or that are especially close to being realized. Especially for complex projects, consider requiring project teams to think through and track their own risks.`),
-            m("p", [`Here is a simple risk management `, m("a", {class:'link b', href:"https://www2a.cdc.gov/cdcup/library/templates/CDC_UP_Risk_Management_Log_Template.xls"}, "template" ), ` (Excel) from the US Center for Disease Control.`])
+            m("p", `In addition, you should have a project or organisation-wide escalation policy for risks that are especially severe, or that are especially close to being realised. Especially for complex projects, consider requiring project teams to think through and track their own risks.`),
+            m("p", [`Here is a simple risk management `, m("a", {class:'link b', href:"https://www2a.cdc.gov/cdcup/library/templates/CDC_UP_Risk_Management_Log_Template.xls"}, "template" ), ` (Excel) from the US Center for Disease Control.`]),
+            m("p", [`If you are in the UK then you will need to consider whether a Data Protection Impact Asessment is needed `, m("a", {class:'link b', href:"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/"}, "you can find out more" ), ` from the UK Information Commissioner's Office.`])
 
 
         ]
