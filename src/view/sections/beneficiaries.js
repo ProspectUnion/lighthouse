@@ -46,7 +46,7 @@ const Sections = {
         ],
         advice: [
            m("p", `Your project may depend on external partners, including suppliers or vendors. Although this is totally normal, external partners may not share your priorities or your project's, especially when it comes to handling data. For each technology partnership you build, ensure that there is a safe way to wind the project down that protects or deletes worker data. This could include setting a process for transferring your data to another platform or project.`),
-           m("p", `External partners should be held to data handling standards that are just as stringent as the ones your team operates under--if not more so. Consider including clauses in your partnership contracts that prohibit uses of your project's data beyond those that are explicitly specified in the contract, or for any purpose that does not solely benefit your project's community. This small step can make a tremendous difference.`),
+           m("p", `External partners should be held to data handling standards that are just as stringent as the ones your team operates under - if not more so. Consider including clauses in your partnership contracts that prohibit uses of your project's data beyond those that are explicitly specified in the contract, or for any purpose that does not solely benefit your project's community. This small step can make a tremendous difference.`),
            m("p", `Finally,  your project and your organisation needs a conflict of interest policy. External partners should be vetted for conflicts between their interests and the goals of the project, even if it doesn't directly bar their involvement in the project.`)
         ]
     },
