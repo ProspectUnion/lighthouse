@@ -23,7 +23,7 @@ const Sections = {
             m("p", `Of course, your project needs people who are responsible for it. Consider going back to your project plan and making sure that all of the activities you listed have someone responsible for handling them. Also, as you assign tasks, think about how those new responsibilities might change someone’s job description.`),
             m("p", `Your project also needs some sort of oversight, which should be separate from the project's operational management. Boards of directors and digital advisory councils are an opportunity for you to add new perspectives and voices to your union. In addition to helping to keep your project on track, they can help you to identify new data-related opportunities for you to build power from.`),
             m("p", `When managing your project, there should be clear, written definitions of when an activity requires additional involvement from the project's oversight. Think of this like bylaws for your project.`),
-            m("p", `You should hold external partners to the same standards of responsibility over your project. It should be clear what each partner is responsible for in your project, and who from that partner organization is responsible for fulfilling those duties.`),
+            m("p", `You should hold external partners to the same standards of responsibility over your project. It should be clear what each partner is responsible for in your project, and who from that partner organisation is responsible for fulfilling those duties.`),
         ]
     },
 

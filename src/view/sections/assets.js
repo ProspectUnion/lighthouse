@@ -31,14 +31,14 @@ const Sections = {
                 m("li", `Encouraging your staff to take teaching and training roles. Instead of creating HR-style training that is regular and mandatory, consider finding opportunities to train staff on data as part of regular team activities. Staff-led lunches and project debriefs are great ways to do this.`),
                 m("li", `Professional development funds could be used to help staff get trained and certified on data-related issues.`)
             ]),
-            m("p", `Adopting new tools or processes may change how your organization handles data in unexpected ways. Every six months or so, or after the adoption of a new technology tool, consider reviewing your data handling practices with your staff. When you do this, have your staff reflect on how they actually handle data, and how those practices deviate from written policies. This shouldn't necessarily be cause to punish your staff: often, it's an indication that people are finding a new way to solve a problem, or that a policy may not reflect the reality of your organisation's work.`),
+            m("p", `Adopting new tools or processes may change how your organisation handles data in unexpected ways. Every six months or so, or after the adoption of a new technology tool, consider reviewing your data handling practices with your staff. When you do this, have your staff reflect on how they actually handle data, and how those practices deviate from written policies. This shouldn't necessarily be cause to punish your staff: often, it's an indication that people are finding a new way to solve a problem, or that a policy may not reflect the reality of your organisation's work.`),
             m("p", `In addition to reviewing policies about data handling, you should spend time reviewing how data is actually used, especially for very sensitive datasets. Many data management platforms include audit logs that can help with this process. Other assets may need to be tracked or audited manually.`),
-            m("p", [`If you need help building a data policy for your organization, check out the `, m("a", {class:'link b', href:"https://digitalimpact.io/toolkit/digital-data/"}, "Digital Data Toolkit" ), `, from Stanford University’s Digital Civil Society Lab. The toolkit includes worksheets to help you build good policies for governing and inventorying your digital assets.`])
+            m("p", [`If you need help building a data policy for your organisation, check out the `, m("a", {class:'link b', href:"https://digitalimpact.io/toolkit/digital-data/"}, "Digital Data Toolkit" ), `, from Stanford University’s Digital Civil Society Lab. The toolkit includes worksheets to help you build good policies for governing and inventorying your digital assets.`])
         ]
     },
     "minimize": {
         type: "checks",
-        subtitle: "minimise data.",
+        subtitle: "Minimise data.",
         subsection: "minimize",
         checks: [
             "The collection, use, and creation of our project's assets are all linked directly to project activities.",
@@ -48,7 +48,7 @@ const Sections = {
         ],
         levels: [0,1,2,3,4],
         copy: [
-            m("p", "Your project's governance will in part come from how you manage its data and digital assets—from sourcing and collecting data to deciding who can and can't use it.  A mature project will minimise unnecessary data collection, and regularly ensure that the project’s data use restrictions are being met."),
+            m("p", "Your project's governance will in part come from how you manage its data and digital assets — from sourcing and collecting data to deciding who can and can't use it.  A mature project will minimise unnecessary data collection, and regularly ensure that the project’s data use restrictions are being met."),
         ],
         advice: [
             m("p", `It's tempting to collect just a little bit more data, even if you don’t need it,  just in case. Give in to that instinct too much, though, and you may find that your project has strayed from its core goals, or put your beneficiaries in harm’s way.`),
@@ -74,7 +74,7 @@ const Sections = {
             m("p", `We’ve already talked about internal-facing data policies: how your team handles project-related data. But you also need external-facing data policies: to communicate to your members about how you’ll use their data. After all, if you don’t look out for your members privacy, who will?  `),
         ],
         advice: [
-            m("p", `If you haven’t already, it’s time to build data protection policies for your organization, and to make sure your partners are doing the same. While you will likely build more custom data handling policies to meet your own needs, at a minimum you and your partners need to comply with data protection laws.`),
+            m("p", `If you haven’t already, it’s time to build data protection policies for your organisation, and to make sure your partners are doing the same. While you will likely build more custom data handling policies to meet your own needs, at a minimum you and your partners need to comply with data protection laws.`),
             m("p", [`If you need help building a data protection policy, the International Association of Privacy Professionals (IAPP) has produced a `, m("a", {class:'link b', href:"https://iapp.org/resources/article/sample-data-protection-policy-template-2/"}, "template policy" ), ` to get you started. (Your needs may vary depending on your jurisdiction.)`])
         ]
     },
