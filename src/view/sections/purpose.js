@@ -15,7 +15,7 @@ const Sections = {
             "Our project plan describes specific beneficiaries: specific communities that the project intends to help."
         ],
         levels: [[0,1],2,3,4,5],
-        copy: [  
+        copy: [
             m("p", "First things first. Do you have a plan for your project? (Or, if you’re thinking about your union’s overall data practices: do you have a plan for how you for collecting and using data?)"),
             m("p", "We know. This part may feel obvious or trivial. But think of it like your project’s foundation. A plan should describe what you’re doing, how you’re doing it, and why."),
             m("p", "A plan should also identify who your project is for. After all,  your project exists to help some group of people improve their lives. These could be your members, or a broader set of workers, or some other community. Here, we borrow from legal language and call these people ‘beneficiaries.’ Beneficiaries are people who you intend to benefit from your project. "),
@@ -35,18 +35,18 @@ const Sections = {
             "We regularly review our progress against the project plan.",
             "We regularly review our progress against the project plan, and update our objectives and activities accordingly. "
         ],
-        copy: [  
+        copy: [
             m("p", "Once you have a plan, it’s good practice to check on how its going every so often. This doesn’t have to be an overly bureaucratic process, but it’s good practice.  After all, the project team could change: people get promoted or leave for new challenges. Building good habits now can ensure that the project remains on course, no matter who is in charge."),
         ],
         advice: [
-            m("p",[ `If you’re trying to build or review a project plan from scratch, it may be helpful to start with your unions’ value or mission statement. One way that non-profit organizations build project plans  is via a theory of change. `,m("a", {class: "link b hover-blue", href:"https://www.aecf.org/resources/theory-of-change/"}, "Here's ") ,`a resource on how to build one from the Annie Casey Foundation.`]),
+            m("p",[ `If you’re trying to build or review a project plan from scratch, it may be helpful to start with your unions’ value or mission statement. One way that non-profit organisations build project plans is via a theory of change. `,m("a", {class: "link b hover-blue", href:"https://www.aecf.org/resources/theory-of-change/"}, "Here's ") ,`a resource on how to build one from the Annie Casey Foundation.`]),
             m("p", "Consider checking on your project's progress every 3-6 months, with a broader review every year. As your project evolves, your project's goals may need to change, whether to seize a new opportunity or simply because your starting assumptions may not have all been correct. Building a regular process for review now will help you catch those opportunities down the road.")
         ]
     },
 }
 
 const Purpose = {
-    view: (vnode)=>{     
+    view: (vnode)=>{
         return [
             m(SectionTemplate, {content: Sections["basics"], options: {copy: vnode.attrs.copy || "enabled", shorten: true, section: "purpose"}, answers: vnode.attrs.answers}),
             m(SectionTemplate, {content: Sections["progress"], options: {copy: vnode.attrs.copy || "enabled", section: "purpose"}, answers: vnode.attrs.answers}),

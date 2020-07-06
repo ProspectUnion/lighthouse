@@ -15,7 +15,7 @@ const Sections = {
             "AND Our risk tracking includes both internal and external risk factors, including relationships with third party service providers...",
             "AND We not only track risks related to the success of the project, but also how the project and its assets might affect our union and the project’s beneficiaries."
         ],
-        copy: [  
+        copy: [
             m("p", "Last section! Most of your time so far has been spent thinking about how your project will work if everything goes right. But you still need to plan for what happens if it doesn’t."),
             m("p", "Any project should keep track of risks it faces. Some risks are easy to identify: a project fails to meet its objectives; an employee is phished, causing a data breach; a stakeholder misuses or inappropriately allows access to sensitive data. Other risks may be more difficult to define, or may become clearer as your project evolves. "),
         ]
@@ -26,12 +26,12 @@ const Sections = {
         subtitle: "Mitigate risks.",
         subsection: "mitigation",
         checks: [
-            "We estimate each risk's likelihood of being realized and each risk's severity if realized.",
+            "We estimate each risk's likelihood of being realized and each risk's severity if realised.",
             "Each risk has specific mitigation measures with an internal stakeholder responsible for maintaining each measure.",
             "We escalate the handling of a risk to project leadership as its likelihood and severity increase.",
         ],
         levels: [0,null,1,2,3],
-        copy: [  
+        copy: [
             m("p", "As you execute your project, you'll need to keep track of the risks that might arise, and come up with ways to mitigate them. This can be an uncomfortable exercise. You and your team probably care deeply about your project, and are invested in its success. But ignoring risks won't make them less likely to occur. The time you invest now in thinking about risks will pay off when you're better prepared for whatever unexpected event inevitably appears on the horizon."),
         ],
         advice: [
@@ -41,7 +41,7 @@ const Sections = {
                 m("li", "Description of the risk."),
                 m("li", "(optional) Category of risk. (e.g., Finance, Security, Personnel, Program, Partnerships)"),
                 m("li", "Likelihood of risk on a scale of 1 (low) to 5 (high)"),
-                m("li", "Severity of risk if realized on a scale of 1 (low) to 5 (high)"),
+                m("li", "Severity of risk if realised on a scale of 1 (low) to 5 (high)"),
                 m("li", "Total risk score (product of Likelihood and Severity scores)"),
                 m("li", "Owner of the risk (who is responsible for tracking it)"),
                 m("li", "Mitigation measures"),
