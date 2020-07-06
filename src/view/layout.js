@@ -104,7 +104,7 @@ const Layout = {
                     ),
                     m("small", {"class":"f6 db mv2 "},
                       [
-                        "Lighthouse is "
+                        "Lighthouse is ",
                         m("a", {"class": "link mid-gray b", "href":"https://github.com/ProspectUnion/lighthouse"}, "open source.")
                       ]
                     ),
