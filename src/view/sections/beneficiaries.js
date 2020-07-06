@@ -16,7 +16,7 @@ const Sections = {
             "Our project is co-created with our beneficiaries."
         ],
         copy: [
-            m("p", "Your project likely exists to help improve the working lives of a group or groups of workers - in this tool we call these workers your beneficiaries. These could be your members, or a broader set of workers, or some other community or wokers."),
+            m("p", "Your project likely exists to help improve the working lives of a group or groups of workers - in this tool we call these workers your beneficiaries. These could be your members, or a broader set of workers, or some other community of workers."),
             m("p", "Ideally, your project’s beneficiaries wouldn’t just play a passive role: they would be involved in both governance and operations. This could range from having beneficiaries on committees and other groups, to holding regular consultation and feedback sessions."),
         ],
         advice: [
@@ -35,14 +35,14 @@ const Sections = {
         subtitle: "Dealing with partners.",
         subsection: "partners",
         checks: [
-            "We prioritize the needs of our membership over the needs of other stakeholders.",
+            "We prioritise the needs of our membership over the needs of other stakeholders.",
             "We regularly review the benefits and risks of external stakeholder relationships.",
             "We have a conflict of interest policy, and require internal and external stakeholders to adhere to it.",
         ],
         levels: [0,null,1,2,3],
         copy: [
             m("p", "Your project likely involves an ecosystem of partners: from other unions to third-party organisations, employers, suppliers, academic researchers, and government regulators."),
-            m("p", "Each of these partners has something to lose or gain from your project, and their interests may not always align with yours. Good projects account for this—with legal agreements to ensure good behaviour, with documented internal practices to comply with regulations, with participation from beneficiaries to ensure their interests are being looked after."),
+            m("p", "Each of these partners has something to lose or gain from your project, and their interests may not always align with yours. Good projects account for this — with legal agreements to ensure good behaviour, with documented internal practices to comply with regulations, with participation from beneficiaries to ensure their interests are being looked after."),
         ],
         advice: [
            m("p", `Your project may depend on external partners, including suppliers or vendors. Although this is totally normal, external partners may not share your priorities or your project's, especially when it comes to handling data. For each technology partnership you build, ensure that there is a safe way to wind the project down that protects or deletes worker data. This could include setting a process for transferring your data to another platform or project.`),

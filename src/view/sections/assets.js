@@ -38,7 +38,7 @@ const Sections = {
     },
     "minimize": {
         type: "checks",
-        subtitle: "Minimize data.",
+        subtitle: "minimise data.",
         subsection: "minimize",
         checks: [
             "The collection, use, and creation of our project's assets are all linked directly to project activities.",
@@ -48,11 +48,11 @@ const Sections = {
         ],
         levels: [0,1,2,3,4],
         copy: [
-            m("p", "Your project's governance will in part come from how you manage its data and digital assets—from sourcing and collecting data to deciding who can and can't use it.  A mature project will minimize unnecessary data collection, and regularly ensure that the project’s data use restrictions are being met."),
+            m("p", "Your project's governance will in part come from how you manage its data and digital assets—from sourcing and collecting data to deciding who can and can't use it.  A mature project will minimise unnecessary data collection, and regularly ensure that the project’s data use restrictions are being met."),
         ],
         advice: [
             m("p", `It's tempting to collect just a little bit more data, even if you don’t need it,  just in case. Give in to that instinct too much, though, and you may find that your project has strayed from its core goals, or put your beneficiaries in harm’s way.`),
-            m("p", `Data is potential, but also risk. To minimize risk related to the data you hold, consider minimizing the data that your project collects and produces. This could involve asking fewer questions of research subjects or members, removing extraneous fields from databases, or deleting data after analysis or use. This is called ‘data minimization.’`),
+            m("p", `Data is potential, but also risk. To minimise risk related to the data you hold, consider minimizing the data that your project collects and produces. This could involve asking fewer questions of research subjects or members, removing extraneous fields from databases, or deleting data after analysis or use. This is called ‘data minimization.’`),
             m("p", `In addition to minimizing the data you collect, consider limiting secondary uses of your project data. Secondary uses are uses that are different from the reasons you collected the data in the first place. Limiting secondary uses of data by default is a good way to require that each new use of data is justified by your project's goals.`),
             m("p", [`If you need help thinking through data minimization, the UK’s Infomation Commissioner's Office has produced a helpful `, m("a", {class:'link b', href:"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/data-minimisation/"}, "guide" ), `, explaining what it is and how to apply it to your work.`])
         ]
@@ -68,7 +68,7 @@ const Sections = {
             "We comply with relevant local data protection laws (for example the Data Protention Act, GDPR)...",
             "AND we have internal data privacy policies to protect workers...",
             "AND our project partners certify their compliance with data protection laws...",
-            "AND We require our partners to minimize data-related risks and to refrain from behavior that may harm beneficiaries (e.g. expropriation of data)."
+            "AND We require our partners to minimise data-related risks and to refrain from behavior that may harm beneficiaries (e.g. expropriation of data)."
         ],
         copy: [
             m("p", `We’ve already talked about internal-facing data policies: how your team handles project-related data. But you also need external-facing data policies: to communicate to your members about how you’ll use their data. After all, if you don’t look out for your members privacy, who will?  `),
