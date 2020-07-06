@@ -111,7 +111,7 @@ const Layout = {
                     m("small", {"class":"f6 db mv2 "},
                       [
                         "Emoji from ",  m("a", {"class": "link mid-gray b", "href":"https://twemoji.twitter.com/"}, "Twemoji")," (CC-BY).",
-                        " Icons from ", m("a", {"class": "link mid-gray b", "href":"https://thenounproject.com"}, "The Noun Project (under NounPro license)"),"."
+                        " Icons from ", m("a", {"class": "link mid-gray b", "href":"https://thenounproject.com"}, "The Noun Project")," (under NounPro license)."
                       ]
                     ),
                     m("div", {"class":"tc mt3 mv2"},
